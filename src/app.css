@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@200..700&family=Roboto+Mono:wght@400;500;700&display=swap');
+
+:root {
+	font-size: 16px;
+	--font-sans:
+		'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
+		sans-serif;
+	--font-mono: 'JetBrains Mono', 'Roboto Mono', monospace;
+	--font-xl: 2.5rem;
+	--font-l: 2rem;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: var(--font-sans);
+    min-height:100dvh;
+}
+/* Keeping the footer at the bottom */
+main {
+    flex:1;
+}
+a {
+	text-decoration: none;
+}
