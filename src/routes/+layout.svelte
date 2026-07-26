@@ -7,6 +7,7 @@
 
 <svelte:head>
 	<title>Sonicx180</title>
+	<link rel="icon" href="/logo.png" type="image/png" />
 </svelte:head>
 
 <Navbar />
