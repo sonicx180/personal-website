@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Sonicx180</title>
+	<title>Cheta Nzeogu | Sonicx180</title>
 	<link rel="icon" href="/logo.png" type="image/png" />
 </svelte:head>
 
