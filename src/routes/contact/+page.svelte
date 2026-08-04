@@ -7,7 +7,8 @@ import Contact from "../../components/Contact.svelte";
 	<section class="info">
 		<h3>You can reach me through the following:</h3>
 		<div class="list">
-			<Contact />
+			<Contact contact="gh" />
+			<Contact contact="slack" />
 		</div>
 		
 	</section>
@@ -20,5 +21,6 @@ import Contact from "../../components/Contact.svelte";
 	.list {
 		display:flex;
 		flex-direction:column;
+		gap:3rem;
 	}
 </style>

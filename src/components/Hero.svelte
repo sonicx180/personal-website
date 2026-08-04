@@ -43,7 +43,7 @@
 		width: clamp(80px, 15vw, 160px);
 		height: auto;
 		object-fit: contain;
-		border-radius: 8px;
+		border-radius: 25%;
 		margin-right: 1.5rem;
 	}
 	.name,
