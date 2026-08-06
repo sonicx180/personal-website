@@ -7,8 +7,10 @@ import Contact from "../../components/Contact.svelte";
 	<section class="info">
 		<h3>You can reach me through the following:</h3>
 		<div class="list">
-			<Contact contact="gh" />
-			<Contact contact="slack" />
+			<Contact contact="gh" link="https://github.com/sonicx180" />
+			<Contact contact="slack" link="https://hackclub.slack.com"/>
+			<Contact contact="discord" link="https://discord.com/1051295490358128662"/>
+			<Contact contact="linkedin" link="https://linkedin.com/in/cheta-nzeogu" info="Cheta Nzeogu"/>
 		</div>
 		
 	</section>

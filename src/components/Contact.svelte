@@ -2,21 +2,30 @@
 	const gh_light = '/logos/gh_light.png';
 	const gh_dark = '/logos/gh_dark.png';
 	const slack_light = '/logos/slack_light.png';
+	const discord_light = '/logos/discord.png';
+	const linkedin = '/logos/linkedin.png';
 	import { onMount } from 'svelte';
-	let { contact, info = 'sonicx180' } = $props();
-	let link = '';
+	let { contact, info = 'sonicx180', link } = $props();
+	let img = '';
 	let isDark = $state(false);
 
 	if (contact == 'gh') {
-		link = gh_light;
+		img = gh_light;
 	} else if (contact == 'slack') {
-		link = slack_light;
+		img = slack_light;
 	}
+	else if (contact == 'discord') {
+		img = discord_light;
+	}
+	else {
+		img = linkedin
+	}
+
 </script>
 
 <div class="contact">
-	<a href="https://github.com/sonicx180" class="contact-link" target="_blank">
-		<img src={link} alt="{info}'s {contact}" /> : {info}
+	<a href={link} class="contact-link" target="_blank">
+		<img src={img} alt="{info}'s {contact}" /> : {info}
 	</a>
 </div>
 
