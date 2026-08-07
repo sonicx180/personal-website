@@ -2,7 +2,7 @@
 </script>
 
 <footer>
-	<h4>&copy; <span class="accent"> Sonicx180 </span></h4>
+	<h4>&copy; <span class="accent"> Cheta Nzeogu (Sonicx180) </span></h4>
 </footer>
 
 <style>
