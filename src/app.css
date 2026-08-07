@@ -81,7 +81,9 @@ a {
 	text-decoration: none;
 	font-weight: var(--font-light);
 }
-
+a:visited {
+	color:var(--accent-clr);
+}
 .accent {
 	color: var(--accent-clr);
 	font-weight: var(--font-bld);

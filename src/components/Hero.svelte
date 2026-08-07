@@ -31,7 +31,6 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-weight: var(--font-semi-bld);
-		height:100%;
 		margin-left: 20px;
 	}
 	h1 {
@@ -55,6 +54,7 @@
 			display:none;
 		}
 		.hero {
+			margin:5px;
 			text-align:center;
 		}
 	}

@@ -9,23 +9,38 @@
 	<section class="projects">
 		<div class="projects-grid">
 			<div class="project">
-				<img alt="Screenshot of FindYourCut"/>
-				<h3>FindYourCut</h3>
-				<p>A website made to find haircuts. Looking back this is one of the worst looking sites I've made.</p>
-				<p> I built this mid 2025</p>
+				<img alt="Screenshot of FindYourCut" />
+				<a href="https://findyourcut.vercel.app" target="_blank"
+					><h3>FindYourCut</h3>
+				</a>
+				<p>
+					A website made to find haircuts. Looking back this is one of
+					the worst looking sites I've made.
+				</p>
+				<p>I built this mid 2025</p>
 			</div>
 			<div class="project">
-				<img alt="Screenshot of Ginz & Associates"/>
-				<h3>Ginz & Associates</h3>
+				<img alt="Screenshot of Ginz & Associates" />
+				<a href="https://ginz-associates.us" target="_blank"
+					><h3>Ginz & Associates</h3>
+				</a>
 
 				<p>A website made for my dad for his business. Not official.</p>
-				<p> I built this in the winter of 2025</p>
+				<p>I built this in the winter of 2025</p>
 			</div>
 			<div class="project">
 				<img alt="Screenshot of Pokebot in use" />
-				<h3> Pokebot</h3>
-				<p> Slack bot that gives information on pokemon. This is only avaliable on the Hack Club Slack for now.</p>
-				<p> I built this in the summer of 2026 to learn how to build slack bots</p>
+				<a href="https://github.com/sonicx180/pokebot" target="_blank"
+					><h3>Pokebot</h3></a
+				>
+				<p>
+					Slack bot that gives information on pokemon. This is only
+					avaliable on the Hack Club Slack for now.
+				</p>
+				<p>
+					I built this in the summer of 2026 to learn how to build
+					slack bots
+				</p>
 			</div>
 		</div>
 	</section>
@@ -44,15 +59,13 @@
 		gap: 1rem;
 	}
 	.project {
-		border: 2px solid var(--border-clr);
+		border: 3px solid var(--border-clr);
 		border-radius: 8px;
-		padding:10px;
+		padding: 10px;
 	}
-	.project > h3 {
-		text-decoration:underline;
-	}
-	.project > h3:hover {
-		cursor:pointer;
-		text-decoration: none;
+	.project > a,
+	.project > a:visited {
+		color: var(--secondary-clr);
+		text-decoration: underline;
 	}
 </style>

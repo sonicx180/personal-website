@@ -47,7 +47,5 @@
 		gap: 0.35rem;
 		line-height: 1;
 	}
-	.contact-link:visited {
-		color: var(--accent-clr);
-	}
+
 </style>
