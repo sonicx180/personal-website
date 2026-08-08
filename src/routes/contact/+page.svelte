@@ -22,7 +22,12 @@ import Contact from "../../components/Contact.svelte";
 	}
 	.list {
 		display:grid;
-		grid-template-columns:auto auto;
-		gap:1rem;
+		grid-template-columns:1fr ;
+		gap:1.5rem;
+	}
+	@media screen and (min-width:500px) {
+		.list {
+			grid-template-columns: 1fr 1fr;
+		}
 	}
 </style>

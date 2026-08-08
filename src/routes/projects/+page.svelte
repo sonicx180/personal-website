@@ -9,7 +9,10 @@
 	<section class="projects">
 		<div class="projects-grid">
 			<div class="project">
-				<img alt="Screenshot of FindYourCut" />
+				<img
+					src="/projects/findyourcut.png"
+					alt="Screenshot of FindYourCut"
+				/>
 				<a href="https://findyourcut.vercel.app" target="_blank"
 					><h3>FindYourCut</h3>
 				</a>
@@ -20,7 +23,10 @@
 				<p>I built this mid 2025</p>
 			</div>
 			<div class="project">
-				<img alt="Screenshot of Ginz & Associates" />
+				<img
+					src="/projects/ginz.png"
+					alt="Screenshot of Ginz & Associates"
+				/>
 				<a href="https://ginz-associates.us" target="_blank"
 					><h3>Ginz & Associates</h3>
 				</a>
@@ -29,7 +35,10 @@
 				<p>I built this in the winter of 2025</p>
 			</div>
 			<div class="project">
-				<img alt="Screenshot of Pokebot in use" />
+				<img
+					src="/projects/pokebot.png"
+					alt="Screenshot of Pokebot in use"
+				/>
 				<a href="https://github.com/sonicx180/pokebot" target="_blank"
 					><h3>Pokebot</h3></a
 				>
@@ -51,7 +60,7 @@
 		text-align: center;
 	}
 	.projects {
-		margin: 5px;
+		margin: 0.5rem;
 	}
 	.projects-grid {
 		display: grid;
@@ -67,5 +76,9 @@
 	.project > a:visited {
 		color: var(--secondary-clr);
 		text-decoration: underline;
+	}
+	img {
+		object-fit: contain;
+		max-width:100%;
 	}
 </style>
