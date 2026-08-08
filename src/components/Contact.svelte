@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	const gh_light = '/logos/gh_light.png';
 	const gh_dark = '/logos/gh_dark.png';
 	const slack_light = '/logos/slack_light.png';
@@ -18,7 +18,7 @@
 		img = discord_light;
 	}
 	else {
-		img = linkedin
+		img = linkedin;
 	}
 
 </script>
@@ -30,11 +30,6 @@
 </div>
 
 <style>
-	.contact {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
 	img {
 		width: clamp(30px, 5vw, 600px);
 		display: inline-block;
@@ -45,7 +40,11 @@
 		display: inline-flex;
 		align-items: center;
 		gap: 0.35rem;
-		line-height: 1;
+		line-height: 1.5;
 	}
-
+	@media screen and (max-width:500px) {
+		img {
+			width:40px;
+		}
+	}
 </style>

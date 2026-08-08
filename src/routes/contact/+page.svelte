@@ -21,8 +21,8 @@ import Contact from "../../components/Contact.svelte";
 		text-align: center;
 	}
 	.list {
-		display:flex;
-		flex-direction:column;
-		gap:3rem;
+		display:grid;
+		grid-template-columns:auto auto;
+		gap:1rem;
 	}
 </style>

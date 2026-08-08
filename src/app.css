@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200..800&family=Roboto+Mono:wght@400;500;700&display=swap');
 
+*, ::before, ::after {
+  box-sizing: border-box;
+}
 :root {
 	--font-mono: 'JetBrains Mono', 'Roboto Mono', monospace;
 	--font-xl: clamp(1.75rem, 1.2rem + 1.8vw, 2.5rem);
