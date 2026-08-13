@@ -32,7 +32,10 @@
 				</a>
 
 				<p>A website made for my dad for his business. Not official.</p>
-				<p>I built this in the winter of 2025</p>
+				<p>
+					I started building this in the winter of 2025, and sort of
+					redid the design of it in 2026, and continue to maintain it.
+				</p>
 			</div>
 			<div class="project">
 				<img
@@ -79,6 +82,6 @@
 	}
 	img {
 		object-fit: contain;
-		max-width:100%;
+		max-width: 100%;
 	}
 </style>
